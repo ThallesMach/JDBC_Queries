@@ -1,0 +1,23 @@
+
+
+
+
+
+
+ Agora, crie a base de dados softblue no MySQL:
+
+mysql -u root
+mysql> create database softble;
+
+mysql> show database;
+
+mysql> use softble;
+
+mysql> show tables;
+
+mysql> select * from Produto;
+
+
+
+
+
