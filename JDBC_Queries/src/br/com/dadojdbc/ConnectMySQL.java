@@ -1,28 +1,3 @@
-
-
-
-
-
-
- Agora, crie a base de dados softblue no MySQL:
-
-mysql -u root
-mysql> create database softble;
-
-mysql> show database;
-
-mysql> use softble;
-
-mysql> CREATE TABLE Produto( id int(4) AUTO_INCREMENT, nome varchar(60) NOT NULL, PRIMARY KEY (id)	);
-
-mysql> show tables;
-
-mysql> select * from Produto;
-
-
--------------------------------------------------------------------------------------------------
-
-
 package br.com.dadojdbc;
 
 
@@ -55,13 +30,4 @@ public class ConnectMySQL {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
 
